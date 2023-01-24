@@ -28,8 +28,8 @@ TECHNOLOGIES USED
 * Node.js
 * Express.js
 * MongoDB
-* NPM packages such as
-o JSON Web Tokens (JWT)
-o Multer
-o Bcrypt, etc. 
+* NPM packages such as,
+ o JSON Web Tokens (JWT)
+ o Multer
+ o Bcrypt, etc. 
 
