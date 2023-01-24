@@ -1,0 +1,21 @@
+<div class="mx-auto mt-5 col-md-6 " style="width: 300px;">
+    <form action="home/image-upload" enctype="multipart/form-data" method="post">
+        <label for="imageCropFileInput" class="form-label">Image</label>
+        <!-- mULTIPLE iMAGE Starts-->
+        <input type="file" id="imageCropFileInput" multiple="" accept=".jpg,.jpeg,.png" name="Image"
+            class="form-control">
+        <input type="hidden" id="profile_img_data">
+        <div class="m-auto mt-4">
+            <div class="img-preview"></div>
+            <div id="galleryImages" class="container-flex m-auto"></div>
+        </div>
+        <div id="cropper" class="m-2">
+            <canvas id="cropperImg" width="0" height="0"></canvas>
+            <button class="cropImageBtn ml-auto" type="button" id="cropImageBtn">Crop</button>
+        </div>
+        <!-- mULTIPLE iMAGE Ends-->
+        <div class="text-center">
+            <button type="submit" class="btn btn-success mt-2 ml-auto ">Submit</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,26 @@
+/* Cropper Styles */
+#galleryImages, #cropper {
+  width: 200px;
+}
+
+canvas {
+  max-width: 200px;
+  display: inline-block;
+}
+
+#cropImageBtn {
+  display: none;
+}
+
+.singleImageCanvasContainer {
+  max-width: 200px;
+  display: inline-block;
+  position: relative;
+  margin: 2px;
+}
+
+.singleImageCanvasCloseBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
