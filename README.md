@@ -4,8 +4,8 @@ MODULES – IMAGE HOTING
 
 MODULE 1 - LOGIN
 
-1. User Login - User needs to log in with his credentials- Here the authentication is possible via JWT.
-2. User Signup - The user can become a member of the platform using the signup option and provide his credentials, which he can later use to login.
+1. User Login - User needs to login with user's credentials- Here the authentication is possible via JWT.
+2. User Signup - The user can become a member of the platform using the signup option and provide the user credentials, which the user can later use to login.
 
 
 MODULE 2 - HOME
